@@ -24,7 +24,7 @@ jobs:
         sudo apt-get install -y python-apt python3-apt
     - name: Modify /etc/ansible/hosts to contain entry for localhost.
       run: |
-        echo "localhost ansible_connection=local" > /etc/ansible/hosts python3-apt
+        sudo echo "localhost ansible_connection=local" > /etc/ansible/hosts python3-apt
     - name: Installing darkwizard242 roles specified within requirements.yml onto local system from Ansible Galaxy.
       run: |
         ansible-galaxy install -r requirements.yml
