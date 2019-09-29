@@ -19,7 +19,11 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
-    - name: Install darkwizard242 roles from Ansible Galaxy.
+    - name: Installing python-apt as required for some ansible roles.
+      run: |
+        echo -e "\nAbout to install python-apt locally.\n"
+        sudo apt-get install -y python-apt
+    - name: Installing darkwizard242 roles on local system from Ansible Galaxy.
       run: |
         echo -e "\nAbout to install darkwizard242 role from requirements.yml locally.\n"
         ansible-galaxy install -r requirements.yml
