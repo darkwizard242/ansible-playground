@@ -8,6 +8,8 @@ on:
     branches:
       - feature_*
       - master
+  schedule:
+    - cron: '0 9 * * *'
 
 jobs:
   build:
@@ -29,9 +31,9 @@ jobs:
     - name: Installing darkwizard242 roles specified within requirements.yml onto local system from Ansible Galaxy.
       run: |
         ansible-galaxy install -r requirements.yml
-    - name: Perform Syntax check of ansible playbook called playbook.yml
+    - name: Perform Syntax check of ansible playbook called provisioner.yml
       run: |
-        ansible-playbook --syntax-check -i hosts playbook.yml
-    - name: Run playbook.yml for installation of darkwizard242 roles on local system using custom inventory hosts file.
+        ansible-playbook --syntax-check -i hosts provisioner.yml
+    - name: Run provisioner.yml for installation of darkwizard242 roles on local system using custom inventory hosts file.
       run: |
-        ansible-playbook -i hosts playbook.yml
+        ansible-playbook -i hosts provisioner.yml
