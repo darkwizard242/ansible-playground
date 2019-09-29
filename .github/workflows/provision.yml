@@ -19,10 +19,15 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
-    - name: Upgrade pip
-      run: |
-        python -m pip install --upgrade pip
     - name: Install darkwizard242 roles from Ansible Galaxy.
       run: |
-        echo -e "\nAbout to install darkwizard242 role from requirements.yml locally."
+        echo -e "\nAbout to install darkwizard242 role from requirements.yml locally.\n"
         ansible-galaxy install -r requirements.yml
+    - name: Perform Syntax check of ansible playbook called playbook.yml
+      run: |
+        echo -e "\nSyntax check of ansible playbook.\n"
+        ansible-playbook --syntax-check playbook.yml
+    - name: Playbook Installation of darkwizard242 roles on local system.
+      run: |
+        echo -e "\nAbout to run playbook.yml that installs roles locally.\n"
+        ansible-playbook playbook.yml
