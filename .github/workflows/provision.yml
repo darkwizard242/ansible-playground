@@ -1,0 +1,39 @@
+name: ansible-playground-provisioner
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - feature_*
+      - master
+  schedule:
+    - cron: '0 9 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Installing python-apt and python3-apt as required for some ansible roles.
+      run: |
+        sudo apt-get install -y python-apt python3-apt
+    - name: Create a custom inventory file to contain entry for localhost.
+      run: |
+        echo "localhost ansible_connection=local" > hosts
+        cat hosts
+    - name: Installing darkwizard242 roles specified within requirements.yml onto local system from Ansible Galaxy.
+      run: |
+        ansible-galaxy install -r requirements.yml
+    - name: Perform Syntax check of ansible playbook called provisioner.yml
+      run: |
+        ansible-playbook --syntax-check -i hosts provisioner.yml
+    - name: Run provisioner.yml for installation of darkwizard242 roles on local system using custom inventory hosts file.
+      run: |
+        ansible-playbook -i hosts provisioner.yml

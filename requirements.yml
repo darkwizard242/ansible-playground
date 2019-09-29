@@ -1,0 +1,46 @@
+# Install darkwizard242 Ansible Galaxy roles on the system prior to provisioning.
+
+# Ansible role to install git.
+- src: darkwizard242.git
+
+# Ansible role to install unzip.
+- src: darkwizard242.unzip
+
+# Ansible role to install python3.
+- src: darkwizard242.python3
+
+# Ansible role to install pip.
+- src: darkwizard242.pip
+
+# Ansible role to install openjdk8.
+- src: darkwizard242.openjdk8
+
+# Ansible role to install openrazer.
+- src: darkwizard242.openrazer
+
+# Ansible role to install polychromatic.
+- src: darkwizard242.polychromatic
+
+# Ansible role to install atom.
+- src: darkwizard242.atom
+
+# Ansible role to install googlechrome.
+- src: darkwizard242.googlechrome
+
+# Ansible role to install packer.
+- src: darkwizard242.packer
+
+# Ansible role to install terraform.
+- src: darkwizard242.terraform
+
+# Ansible role to install vagrant.
+- src: darkwizard242.vagrant
+
+# Ansible role to install shellcheck.
+- src: darkwizard242.shellcheck
+
+# Ansible role to install tilix.
+- src: darkwizard242.tilix
+
+# Ansible role to install jenkinslts.
+- src: darkwizard242.jenkinslts

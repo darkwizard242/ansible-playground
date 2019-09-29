@@ -1,0 +1,22 @@
+---
+- name: Playbook to install darkwizard242 roles locally
+  hosts: localhost
+  connection: local
+  become: yes
+  gather_facts: true
+  roles:
+    - darkwizard242.git
+    - darkwizard242.unzip
+    - darkwizard242.python3
+    - darkwizard242.pip
+    - darkwizard242.openjdk8
+    - darkwizard242.openrazer
+    - darkwizard242.polychromatic
+    - darkwizard242.atom
+    - darkwizard242.googlechrome
+    - darkwizard242.packer
+    - darkwizard242.terraform
+    - darkwizard242.vagrant
+    - darkwizard242.shellcheck
+    - darkwizard242.tilix
+    - darkwizard242.jenkinslts
