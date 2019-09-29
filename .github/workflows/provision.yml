@@ -22,9 +22,9 @@ jobs:
     - name: Installing python-apt and python3-apt as required for some ansible roles.
       run: |
         sudo apt-get install -y python-apt python3-apt
-    - name: Modify /etc/ansible/hosts to contain entry for localhost.
+    - name: Create a inventory file to contain entry for localhost.
       run: |
-        sudo echo "localhost ansible_connection=local" > /etc/ansible/hosts
+        echo "localhost ansible_connection=local" > hosts
     - name: Installing darkwizard242 roles specified within requirements.yml onto local system from Ansible Galaxy.
       run: |
         ansible-galaxy install -r requirements.yml
@@ -33,4 +33,4 @@ jobs:
         ansible-playbook --syntax-check playbook.yml
     - name: Run playbook.yml for innstallation of darkwizard242 roles on local system.
       run: |
-        ansible-playbook playbook.yml
+        ansible-playbook -i hosts playbook.yml
