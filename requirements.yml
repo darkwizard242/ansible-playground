@@ -36,11 +36,11 @@
 # Ansible role to install vagrant.
 - src: darkwizard242.vagrant
 
-# Ansible role to install jenkinslts.
-- src: darkwizard242.jenkinslts
-
 # Ansible role to install shellcheck.
 - src: darkwizard242.shellcheck
 
 # Ansible role to install tilix.
 - src: darkwizard242.tilix
+
+# Ansible role to install jenkinslts.
+- src: darkwizard242.jenkinslts

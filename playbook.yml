@@ -17,3 +17,6 @@
     - darkwizard242.packer
     - darkwizard242.terraform
     - darkwizard242.vagrant
+    - darkwizard242.shellcheck
+    - darkwizard242.tilix
+    - darkwizard242.jenkinslts
