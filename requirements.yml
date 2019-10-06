@@ -44,3 +44,6 @@
 
 # Ansible role to install jenkinslts.
 - src: darkwizard242.jenkinslts
+
+# Ansible role to install docker.
+- src: darkwizard242.docker
