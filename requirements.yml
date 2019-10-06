@@ -47,3 +47,6 @@
 
 # Ansible role to install docker.
 - src: darkwizard242.docker
+
+# Ansible role to install awscli.
+- src: darkwizard242.awscli
