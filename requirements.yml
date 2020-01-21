@@ -50,3 +50,6 @@
 
 # Ansible role to install awscli.
 - src: darkwizard242.awscli
+
+# Ansible role to install subversion.
+- src: darkwizard242.subversion
