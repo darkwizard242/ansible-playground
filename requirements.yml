@@ -53,3 +53,6 @@
 
 # Ansible role to install subversion.
 - src: darkwizard242.subversion
+
+# Ansible role to install ruby.
+- src: darkwizard242.ruby
