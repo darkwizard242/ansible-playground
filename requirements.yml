@@ -56,3 +56,6 @@
 
 # Ansible role to install ruby.
 - src: darkwizard242.ruby
+
+# Ansible role to install azurecli.
+- src: darkwizard242.azurecli
