@@ -62,3 +62,12 @@
 
 # Ansible role to install gclousdk.
 - src: darkwizard242.gcloudsdk
+
+# Ansible role to install awsvault.
+- src: darkwizard242.awsvault
+
+# Ansible role to install hugo.
+- src: darkwizard242.hugo
+
+# Ansible role to install scout.
+- src: darkwizard242.scout
