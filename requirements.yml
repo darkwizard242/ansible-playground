@@ -74,3 +74,6 @@
 
 # Ansible role to install inspec.
 - src: darkwizard242.inspec
+
+# Ansible role to install awless.
+- src: darkwizard242.awless
