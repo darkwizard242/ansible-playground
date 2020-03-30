@@ -77,3 +77,7 @@
 
 # Ansible role to install awless.
 - src: darkwizard242.awless
+
+# Ansible role to install docker-compose.
+- src: darkwizard242.dockercompose
+
