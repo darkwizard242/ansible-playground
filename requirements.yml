@@ -71,3 +71,6 @@
 
 # Ansible role to install scout.
 - src: darkwizard242.scout
+
+# Ansible role to install inspec.
+- src: darkwizard242.inspec
