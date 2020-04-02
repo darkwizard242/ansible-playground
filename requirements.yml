@@ -81,3 +81,5 @@
 # Ansible role to install docker-compose.
 - src: darkwizard242.dockercompose
 
+# Ansible role to install and configure logrotate.
+- src: darkwizard242.logrotate
