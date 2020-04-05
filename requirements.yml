@@ -83,3 +83,6 @@
 
 # Ansible role to install and configure logrotate.
 - src: darkwizard242.logrotate
+
+# Ansible role to install asciinema.
+- src: darkwizard242.asciinema
