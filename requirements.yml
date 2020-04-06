@@ -86,3 +86,6 @@
 
 # Ansible role to install asciinema.
 - src: darkwizard242.asciinema
+
+# Ansible role to install go.
+- src: darkwizard242.go
