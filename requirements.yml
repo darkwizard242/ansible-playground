@@ -89,3 +89,6 @@
 
 # Ansible role to install go.
 - src: darkwizard242.go
+
+# Ansible role to install trivy.
+- src: darkwizard242.trivy
