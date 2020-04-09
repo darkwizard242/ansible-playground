@@ -95,3 +95,6 @@
 
 # Ansible role to install terraforming.
 - src: darkwizard242.terraforming
+
+# Ansible role to install serverspec.
+- src: darkwizard242.serverspec
