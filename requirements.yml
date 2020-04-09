@@ -92,3 +92,6 @@
 
 # Ansible role to install trivy.
 - src: darkwizard242.trivy
+
+# Ansible role to install terraforming.
+- src: darkwizard242.terraforming
