@@ -101,3 +101,6 @@
 
 # Ansible role to install subfinder.
 - src: darkwizard242.subfinder
+
+# Ansible role to install sslscan.
+- src: darkwizard242.sslscan
