@@ -98,3 +98,6 @@
 
 # Ansible role to install serverspec.
 - src: darkwizard242.serverspec
+
+# Ansible role to install subfinder.
+- src: darkwizard242.subfinder
