@@ -104,3 +104,6 @@
 
 # Ansible role to install sslscan.
 - src: darkwizard242.sslscan
+
+# Ansible role to install simplescreenrecorder.
+- src: darkwizard242.simplescreenrecorder
