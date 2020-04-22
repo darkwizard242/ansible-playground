@@ -107,3 +107,6 @@
 
 # Ansible role to install simplescreenrecorder.
 - src: darkwizard242.simplescreenrecorder
+
+# Ansible role to install awsnuke.
+- src: darkwizard242.awsnuke
