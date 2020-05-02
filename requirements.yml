@@ -110,3 +110,6 @@
 
 # Ansible role to install awsnuke.
 - src: darkwizard242.awsnuke
+
+# Ansible role to install openvpn.
+- src: darkwizard242.openvpn
