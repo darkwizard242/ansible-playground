@@ -113,3 +113,6 @@
 
 # Ansible role to install openvpn.
 - src: darkwizard242.openvpn
+
+# Ansible role to install virtualbox.
+- src: darkwizard242.virtualbox
