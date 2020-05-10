@@ -44,5 +44,6 @@
     - darkwizard242.awsnuke
     - darkwizard242.openvpn
     - darkwizard242.virtualbox
+    - darkwizard242.tfsec
   vars:
     ansible_python_interpreter: /usr/bin/python3
