@@ -116,3 +116,6 @@
 
 # Ansible role to install virtualbox.
 - src: darkwizard242.virtualbox
+
+# Ansible role to install tfsec.
+- src: darkwizard242.tfsec
