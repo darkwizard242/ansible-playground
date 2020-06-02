@@ -36,4 +36,4 @@ jobs:
         ansible-playbook --syntax-check -i hosts provisioner.yml
     - name: Run provisioner.yml for installation of darkwizard242 roles on local system using custom inventory hosts file.
       run: |
-        ansible-playbook -i hosts provisioner.yml
+        ansible-playbook -vvv -i hosts provisioner.yml
