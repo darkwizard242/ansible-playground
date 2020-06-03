@@ -45,5 +45,6 @@
     - darkwizard242.openvpn
     - darkwizard242.virtualbox
     - darkwizard242.tfsec
+    - darkwizard242.jq
   vars:
     ansible_python_interpreter: /usr/bin/python3
