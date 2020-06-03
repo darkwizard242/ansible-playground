@@ -119,3 +119,6 @@
 
 # Ansible role to install tfsec.
 - src: darkwizard242.tfsec
+
+# Ansible role to install jq.
+- src: darkwizard242.jq
