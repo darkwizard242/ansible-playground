@@ -46,5 +46,6 @@
     - darkwizard242.virtualbox
     - darkwizard242.tfsec
     - darkwizard242.jq
+    - darkwizard242.lazydocker
   vars:
     ansible_python_interpreter: /usr/bin/python3
