@@ -122,3 +122,6 @@
 
 # Ansible role to install jq.
 - src: darkwizard242.jq
+
+# Ansible role to install lazydocker.
+- src: darkwizard242.lazydocker
