@@ -47,5 +47,6 @@
     - darkwizard242.tfsec
     - darkwizard242.jq
     - darkwizard242.lazydocker
+    - darkwizard242.locust
   vars:
     ansible_python_interpreter: /usr/bin/python3
