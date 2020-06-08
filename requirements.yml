@@ -125,3 +125,6 @@
 
 # Ansible role to install lazydocker.
 - src: darkwizard242.lazydocker
+
+# Ansible role to install locust.
+- src: darkwizard242.locust
