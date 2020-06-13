@@ -48,7 +48,7 @@
     - darkwizard242.jq
     - darkwizard242.lazydocker
     - darkwizard242.locust
-    - darkwizard242.checkov
+    # - darkwizard242.checkov
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
