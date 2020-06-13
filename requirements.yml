@@ -128,3 +128,6 @@
 
 # Ansible role to install locust.
 - src: darkwizard242.locust
+
+# Ansible role to install checkov.
+- src: darkwizard242.checkov
