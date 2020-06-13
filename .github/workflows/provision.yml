@@ -23,7 +23,6 @@ jobs:
         python-version: 3.7
     - name: Installing python-apt and python3-apt as required for some ansible roles.
       run: |
-        sudo rm -v /etc/apt/sources.list.d/bazel*
         sudo apt-get update
         sudo apt-get install -y python3-apt python3-setuptools
     - name: Create a custom inventory file to contain entry for localhost.
