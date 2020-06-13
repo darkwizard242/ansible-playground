@@ -50,160 +50,159 @@
     - darkwizard242.locust
     - darkwizard242.checkov
   vars:
+    # CUSTOM VARS FOR THIS PLAYBOOK
+    ansible_python_interpreter: /usr/bin/python3
 
-  # CUSTOM VARS FOR THIS PLAYBOOK
-  ansible_python_interpreter: /usr/bin/python3
+    # Overriding default values for role variables of darkwizard242.git
+    git_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.git
-  git_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.unzip
+    unzip_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.unzip
-  unzip_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.python3
+    python3_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.python3
-  python3_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.pip
+    pip_app_package: python3-pip
+    pip_desired_state: latest
+    pip_upgrade_version: latest
 
-  # Overriding default values for role variables of darkwizard242.pip
-  pip_app_package: python3-pip
-  pip_desired_state: latest
-  pip_upgrade_version: latest
+    # Overriding default values for role variables of darkwizard242.openjdk8
+    openjdk8_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.openjdk8
-  openjdk8_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.openrazer
+    openrazer_package_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.openrazer
-  openrazer_package_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.polychromatic
+    polychromatic_package_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.polychromatic
-  polychromatic_package_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.atom
+    atom_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.atom
-  atom_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.googlechrome
+    googlechrome_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.googlechrome
-  googlechrome_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.packer
+    packer_version: 1.5.6
+    packer_bin_path: /usr/local/bin
 
-  # Overriding default values for role variables of darkwizard242.packer
-  packer_version: 1.5.6
-  packer_bin_path: /usr/local/bin
+    # Overriding default values for role variables of darkwizard242.terraform
+    terraform_version: 0.12.26
+    terraform_bin_path: /usr/local/bin
 
-  # Overriding default values for role variables of darkwizard242.terraform
-  terraform_version: 0.12.26
-  terraform_bin_path: /usr/local/bin
+    # Overriding default values for role variables of darkwizard242.vagrant
+    vagrant_version: 2.2.9
+    vagrant_bin_path: /usr/local/bin
 
-  # Overriding default values for role variables of darkwizard242.vagrant
-  vagrant_version: 2.2.9
-  vagrant_bin_path: /usr/local/bin
+    # Overriding default values for role variables of darkwizard242.shellcheck
+    shellcheck_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.shellcheck
-  shellcheck_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.tilix
+    tilix_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.tilix
-  tilix_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.jenkinslts
+    jenkinslts_desired_state: latest
+    jenkinslts_service_desired_state: stopped  # Options are: reloaded, restarted, started, stopped
 
-  # Overriding default values for role variables of darkwizard242.jenkinslts
-  jenkinslts_desired_state: latest
-  jenkinslts_service_desired_state: stopped  # Options are: reloaded, restarted, started, stopped
+    # Overriding default values for role variables of darkwizard242.docker
+    docker_apps_desired_state: latest
+    docker_service_desired_state: stopped  # Options are: reloaded, restarted, started, stopped
 
-  # Overriding default values for role variables of darkwizard242.docker
-  docker_apps_desired_state: latest
-  docker_service_desired_state: stopped  # Options are: reloaded, restarted, started, stopped
+    # Overriding default values for role variables of darkwizard242.awscli_
+    awscli_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.awscli_
-  awscli_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.ruby
+    ruby_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.ruby
-  ruby_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.awsvault and required modifications
+    awsvault_export_file: "{{ ansible_env['HOME'] }}/.bashrc"
+    awsvault_export_state: present
+    awsvault_export_file_backup: yes
+    awsvault_export: 'export AWS_VAULT_BACKEND="file"'
+    awsvault_version: 5.4.4
+    awsvault_bin_path: /usr/local/bin
+    awsvault_file_mode: '0755'
 
-  # Overriding default values for role variables of darkwizard242.awsvault and required modifications
-  awsvault_export_file: "{{ ansible_env['HOME'] }}/.bashrc"
-  awsvault_export_state: present
-  awsvault_export_file_backup: yes
-  awsvault_export: 'export AWS_VAULT_BACKEND="file"'
-  awsvault_version: 5.4.4
-  awsvault_bin_path: /usr/local/bin
-  awsvault_file_mode: '0755'
+    # Overriding default values for role variables of darkwizard242.hugo
+    hugo_version: 0.72.0
+    hugo_bin_path: /usr/local/bin
 
-  # Overriding default values for role variables of darkwizard242.hugo
-  hugo_version: 0.72.0
-  hugo_bin_path: /usr/local/bin
+    # Overriding default values for role variables of darkwizard242.scout
+    scout_version: 0.7.2
+    scout_bin_permission_mode: '0755'
 
-  # Overriding default values for role variables of darkwizard242.scout
-  scout_version: 0.7.2
-  scout_bin_permission_mode: '0755'
+    # Overriding default values for role variables of darkwizard242.inspec
+    inspec_version: 4.20.2
 
-  # Overriding default values for role variables of darkwizard242.inspec
-  inspec_version: 4.20.2
+    # Overriding default values for role variables of darkwizard242.awless
+    awless_version: 0.1.11
+    awless_bin_path: /usr/local/bin
 
-  # Overriding default values for role variables of darkwizard242.awless
-  awless_version: 0.1.11
-  awless_bin_path: /usr/local/bin
+    # Overriding default values for role variables of darkwizard242.dockercompose
+    dockercompose_version: 1.26.0
+    dockercompose_bin_path: /usr/local/bin
+    dockercompose_file_mode: '0755'
 
-  # Overriding default values for role variables of darkwizard242.dockercompose
-  dockercompose_version: 1.26.0
-  dockercompose_bin_path: /usr/local/bin
-  dockercompose_file_mode: '0755'
+    # Overriding default values for role variables of darkwizard242.asciinema
+    asciinema_app_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.asciinema
-  asciinema_app_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.go
+    go_version: 1.14.4
 
-  # Overriding default values for role variables of darkwizard242.go
-  go_version: 1.14.4
+    # Overriding default values for role variables of darkwizard242.trivy
+    trivy_app_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.trivy
-  trivy_app_desired_state: latest
-
-  # Overriding default values for role variables of darkwizard242.terraforming
-  terraforming_desired_state: latest
-  terraforming_user_install: no
-  terraforming_include_dependencies: yes
+    # Overriding default values for role variables of darkwizard242.terraforming
+    terraforming_desired_state: latest
+    terraforming_user_install: no
+    terraforming_include_dependencies: yes
 
 
-  # Overriding default values for role variables of darkwizard242.serverspec
-  serverspec_desired_state: latest
-  serverspec_user_install: no
-  serverspec_include_dependencies: yes
+    # Overriding default values for role variables of darkwizard242.serverspec
+    serverspec_desired_state: latest
+    serverspec_user_install: no
+    serverspec_include_dependencies: yes
 
-  # Overriding default values for role variables of darkwizard242.subfinder
-  subfinder_version: 2.3.2
-  subfinder_bin_path: /usr/local/bin
+    # Overriding default values for role variables of darkwizard242.subfinder
+    subfinder_version: 2.3.2
+    subfinder_bin_path: /usr/local/bin
 
-  # Overriding default values for role variables of darkwizard242.sslscan
-  sslscan_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.sslscan
+    sslscan_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.simplescreenrecorder
-  simplescreenrecorder_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.simplescreenrecorder
+    simplescreenrecorder_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.awsnuke
-  awsnuke_version: 2.14.0
-  awsnuke_config_dir: "/etc/{{ awsnuke_app }}"
-  awsnuke_config_dir_mode: '0744'
-  awsnuke_config_dir_owner: root
-  awsnuke_config_dir_group: root
-  awsnuke_template_source: aws-nuke-config.yml.j2
-  awsnuke_template_dest: aws-nuke-config.yml
-  awsnuke_template_dest_mode: '0744'
-  awsnuke_template_dest_owner: root
-  awsnuke_template_dest_group: root
+    # Overriding default values for role variables of darkwizard242.awsnuke
+    awsnuke_version: 2.14.0
+    awsnuke_config_dir: "/etc/{{ awsnuke_app }}"
+    awsnuke_config_dir_mode: '0744'
+    awsnuke_config_dir_owner: root
+    awsnuke_config_dir_group: root
+    awsnuke_template_source: aws-nuke-config.yml.j2
+    awsnuke_template_dest: aws-nuke-config.yml
+    awsnuke_template_dest_mode: '0744'
+    awsnuke_template_dest_owner: root
+    awsnuke_template_dest_group: root
 
-  # Overriding default values for role variables of darkwizard242.openvpn
-  openvpn_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.openvpn
+    openvpn_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.virtualbox
-  virtualbox_version: 6.1
-  virtualbox_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.virtualbox
+    virtualbox_version: 6.1
+    virtualbox_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.tfsec
-  tfsec_version: 0.19.0
+    # Overriding default values for role variables of darkwizard242.tfsec
+    tfsec_version: 0.19.0
 
-  # Overriding default values for role variables of darkwizard242.jq
-  jq_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.jq
+    jq_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.lazydocker
-  lazydocker_version: 0.9
+    # Overriding default values for role variables of darkwizard242.lazydocker
+    lazydocker_version: 0.9
 
-  # Overriding default values for role variables of darkwizard242.locust
-  locust_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.locust
+    locust_desired_state: latest
 
-  # Overriding default values for role variables of darkwizard242.checkov
-  checkov_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.checkov
+    checkov_desired_state: latest
