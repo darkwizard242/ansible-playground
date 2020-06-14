@@ -103,6 +103,7 @@
     # Overriding default values for role variables of darkwizard242.jenkinslts
     jenkinslts_desired_state: latest
     jenkinslts_service_desired_state: stopped  # Options are: reloaded, restarted, started, stopped
+    jenkinslts_app_check_status_code_retries: 15
 
     # Overriding default values for role variables of darkwizard242.docker
     docker_apps_desired_state: latest
