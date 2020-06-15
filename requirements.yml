@@ -131,3 +131,6 @@
 
 # Ansible role to install checkov.
 - src: darkwizard242.checkov
+
+# Ansible role to install s3cmd.
+- src: darkwizard242.s3cmd
