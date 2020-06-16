@@ -19,7 +19,7 @@
     - darkwizard242.vagrant
     - darkwizard242.shellcheck
     - darkwizard242.tilix
-    - darkwizard242.jenkinslts
+    # - darkwizard242.jenkinslts
     - darkwizard242.docker
     - darkwizard242.awscli
     - darkwizard242.subversion
