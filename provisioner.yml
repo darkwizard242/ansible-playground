@@ -50,6 +50,7 @@
     - darkwizard242.locust
     # - darkwizard242.checkov
     - darkwizard242.s3cmd
+    - darkwizard242.saws
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
@@ -208,3 +209,9 @@
 
     # Overriding default values for role variables of darkwizard242.checkov
     checkov_desired_state: latest
+
+    # Overriding default values for role variables of darkwizard242.s3cmd
+    s3cmd_desired_state: latest
+
+    # Overriding default values for role variables of darkwizard242.saws
+    saws_desired_state: latest
