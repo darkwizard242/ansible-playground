@@ -215,3 +215,6 @@
 
     # Overriding default values for role variables of darkwizard242.saws
     saws_desired_state: latest
+
+    # Overriding default values for role variables of darkwizard242.goofys
+    saws_desired_state: latest
