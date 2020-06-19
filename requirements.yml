@@ -137,3 +137,6 @@
 
 # Ansible role to install saws.
 - src: darkwizard242.saws
+
+# Ansible role to install goofys.
+- src: darkwizard242.goofys
