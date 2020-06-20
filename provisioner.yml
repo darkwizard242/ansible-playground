@@ -51,6 +51,7 @@
     # - darkwizard242.checkov
     - darkwizard242.s3cmd
     - darkwizard242.saws
+    - darkwizard242.goofy
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
@@ -217,4 +218,4 @@
     saws_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.goofys
-    saws_desired_state: latest
+    goofys_desired_state: latest
