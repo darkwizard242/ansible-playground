@@ -140,3 +140,6 @@
 
 # Ansible role to install goofys.
 - src: darkwizard242.goofys
+
+# Ansible role to install mc.
+- src: darkwizard242.mc
