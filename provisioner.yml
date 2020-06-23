@@ -52,6 +52,7 @@
     - darkwizard242.s3cmd
     - darkwizard242.saws
     - darkwizard242.goofys
+    - darkwizard242.mc
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
