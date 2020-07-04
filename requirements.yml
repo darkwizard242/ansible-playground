@@ -143,3 +143,6 @@
 
 # Ansible role to install mc.
 - src: darkwizard242.mc
+
+# Ansible role to install nodejs.
+- src: darkwizard242.nodejs
