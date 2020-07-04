@@ -53,6 +53,7 @@
     - darkwizard242.saws
     - darkwizard242.goofys
     - darkwizard242.mc
+    - darkwizard242.nodejs
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
@@ -220,3 +221,7 @@
 
     # Overriding default values for role variables of darkwizard242.goofys
     goofys_desired_state: latest
+
+    # Overriding default values for role variables of darkwizard242.nodejs
+    nodejs_app_desired_state: present
+    nodejs_version: 14.x
