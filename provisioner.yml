@@ -138,7 +138,7 @@
     scout_bin_permission_mode: '0755'
 
     # Overriding default values for role variables of darkwizard242.inspec
-    inspec_version: 4.21.1
+    inspec_version: 4.21.3
 
     # Overriding default values for role variables of darkwizard242.awless
     awless_version: 0.1.11
