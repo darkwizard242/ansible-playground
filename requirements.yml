@@ -146,3 +146,6 @@
 
 # Ansible role to install nodejs.
 - src: darkwizard242.nodejs
+
+# Ansible role to install node_exporter.
+- src: darkwizard242.node_exporter
