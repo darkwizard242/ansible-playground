@@ -149,3 +149,6 @@
 
 # Ansible role to install node_exporter.
 - src: darkwizard242.node_exporter
+
+# Ansible role to install cloc.
+- src: darkwizard242.cloc
