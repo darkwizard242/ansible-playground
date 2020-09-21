@@ -152,3 +152,6 @@
 
 # Ansible role to install cloc.
 - src: darkwizard242.cloc
+
+# Ansible role to install cis_ubuntu_2004.
+- src: darkwizard242.cis_ubuntu_2004
