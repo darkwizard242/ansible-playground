@@ -1,4 +1,4 @@
-x---
+---
 - name: Playbook to install darkwizard242 roles locally
   hosts: localhost
   connection: local
