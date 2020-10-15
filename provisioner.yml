@@ -1,4 +1,4 @@
----
+x---
 - name: Playbook to install darkwizard242 roles locally
   hosts: localhost
   connection: local
@@ -201,7 +201,7 @@
     virtualbox_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.tfsec
-    tfsec_version: 0.29.0
+    tfsec_version: 0.30.1
 
     # Overriding default values for role variables of darkwizard242.jq
     jq_desired_state: latest
