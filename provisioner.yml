@@ -235,3 +235,6 @@
 
     # Overriding default values for role variables of darkwizard242.cloc
     cloc_desired_state: latest
+
+    # Overriding default values for role variables of darkwizard242.stacer
+    stacer_desired_state: latest
