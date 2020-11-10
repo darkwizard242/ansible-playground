@@ -158,3 +158,6 @@
 
 # Ansible role to install stacer.
 - src: darkwizard242.stacer
+
+# Ansible role to install speedtest.
+- src: darkwizard242.speedtest
