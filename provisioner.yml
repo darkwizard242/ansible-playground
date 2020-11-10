@@ -57,6 +57,7 @@
     - darkwizard242.node_exporter
     - darkwizard242.cloc
     - darkwizard242.stacer
+    - darkwizard242.speedtest
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
