@@ -96,7 +96,7 @@
     packer_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.terraform
-    terraform_version: 0.13.5
+    terraform_version: 0.14.0
     terraform_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.vagrant
