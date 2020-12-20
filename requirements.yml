@@ -161,3 +161,7 @@
 
 # Ansible role to install speedtest.
 - src: darkwizard242.speedtest
+
+
+# Ansible role to install httpie.
+- src: darkwizard242.httpie
