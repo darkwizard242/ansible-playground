@@ -162,6 +162,8 @@
 # Ansible role to install speedtest.
 - src: darkwizard242.speedtest
 
-
 # Ansible role to install httpie.
 - src: darkwizard242.httpie
+
+# Ansible role to install adoptopenjdk.
+- src: darkwizard242.adoptopenjdk
