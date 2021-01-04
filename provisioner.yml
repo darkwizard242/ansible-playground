@@ -59,6 +59,7 @@
     - darkwizard242.stacer
     - darkwizard242.speedtest
     - darkwizard242.httpie
+    - darkwizard242.adoptopenjdk
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
