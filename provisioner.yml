@@ -151,7 +151,7 @@
     awless_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.dockercompose
-    dockercompose_version: 1.28.0
+    dockercompose_version: 1.28.2
     dockercompose_bin_path: /usr/local/bin
     dockercompose_file_mode: '0755'
 
@@ -206,7 +206,7 @@
 
     # Overriding default values for role variables of darkwizard242.tfsec
     tfsec_version: 0.37.0
-    
+
     # Overriding default values for role variables of darkwizard242.jq
     jq_desired_state: latest
 
