@@ -140,7 +140,7 @@
     hugo_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.scout
-    scout_version: 0.14.0
+    scout_version: 0.15.1
     scout_bin_permission_mode: '0755'
 
     # Overriding default values for role variables of darkwizard242.inspec
