@@ -167,3 +167,6 @@
 
 # Ansible role to install adoptopenjdk.
 - src: darkwizard242.adoptopenjdk
+
+# Ansible role to install keybase.
+- src: darkwizard242.keybase
