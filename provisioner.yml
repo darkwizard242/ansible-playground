@@ -251,3 +251,6 @@
 
     # Overriding default values for role variables of darkwizard242.adoptopenjdk
     adoptopenjdk_desired_state: latest
+    
+    # Overriding default values for role variables of darkwizard242.keybase
+    keybase_desired_state: latest
