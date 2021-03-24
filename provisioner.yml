@@ -132,7 +132,7 @@
     awsvault_export_state: present
     awsvault_export_file_backup: yes
     awsvault_export: 'export AWS_VAULT_BACKEND="file"'
-    awsvault_version: 6.2.0
+    awsvault_version: 6.3.0
     awsvault_bin_path: /usr/local/bin
     awsvault_file_mode: '0755'
 
@@ -251,6 +251,6 @@
 
     # Overriding default values for role variables of darkwizard242.adoptopenjdk
     adoptopenjdk_desired_state: latest
-    
+
     # Overriding default values for role variables of darkwizard242.keybase
     keybase_desired_state: latest
