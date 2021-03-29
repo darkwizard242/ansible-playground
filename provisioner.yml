@@ -212,7 +212,7 @@
     jq_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.lazydocker
-    lazydocker_version: '0.10'
+    lazydocker_version: '0.12'
 
     # Overriding default values for role variables of darkwizard242.locust
     locust_desired_state: latest
