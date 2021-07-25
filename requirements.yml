@@ -170,3 +170,6 @@
 
 # Ansible role to install keybase.
 - src: darkwizard242.keybase
+
+# Ansible role to install onepassword.
+- src: darkwizard242.onepassword
