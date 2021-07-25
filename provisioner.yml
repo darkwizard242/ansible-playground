@@ -61,6 +61,7 @@
     - darkwizard242.httpie
     - darkwizard242.adoptopenjdk
     - darkwizard242.keybase
+    - darkwizard242.onepassword
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
