@@ -9,7 +9,7 @@
     - darkwizard242.unzip
     - darkwizard242.python3
     - darkwizard242.pip
-    - darkwizard242.openjdk8
+    - darkwizard242.adoptopenjdk
     - darkwizard242.openrazer
     - darkwizard242.polychromatic
     - darkwizard242.atom
@@ -59,7 +59,6 @@
     - darkwizard242.stacer
     - darkwizard242.speedtest
     - darkwizard242.httpie
-    - darkwizard242.adoptopenjdk
     - darkwizard242.keybase
     - darkwizard242.onepassword
   vars:
@@ -80,8 +79,8 @@
     pip_desired_state: latest
     pip_upgrade_version: latest
 
-    # Overriding default values for role variables of darkwizard242.openjdk8
-    openjdk8_desired_state: latest
+    # Overriding default values for role variables of darkwizard242.adoptopenjdk
+    adoptopenjdk_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.openrazer
     openrazer_package_desired_state: latest
@@ -249,9 +248,6 @@
 
     # Overriding default values for role variables of darkwizard242.httpie
     httpie_desired_state: latest
-
-    # Overriding default values for role variables of darkwizard242.adoptopenjdk
-    adoptopenjdk_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.keybase
     keybase_desired_state: latest
