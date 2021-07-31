@@ -12,6 +12,9 @@
 # Ansible role to install pip.
 - src: darkwizard242.pip
 
+# Ansible role to install adoptopenjdk.
+- src: darkwizard242.adoptopenjdk
+
 # Ansible role to install openjdk8.
 - src: darkwizard242.openjdk8
 
@@ -164,9 +167,6 @@
 
 # Ansible role to install httpie.
 - src: darkwizard242.httpie
-
-# Ansible role to install adoptopenjdk.
-- src: darkwizard242.adoptopenjdk
 
 # Ansible role to install keybase.
 - src: darkwizard242.keybase
