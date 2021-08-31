@@ -173,3 +173,6 @@
 
 # Ansible role to install onepassword.
 - src: darkwizard242.onepassword
+
+# Ansible role to install ulauncher.
+- src: darkwizard242.ulauncher
