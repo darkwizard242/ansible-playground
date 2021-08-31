@@ -255,3 +255,6 @@
 
     # Overriding default values for role variables of darkwizard242.onepassword
     onepassword_desired_state: latest
+
+    # Overriding default values for role variables of darkwizard242.ulauncher
+    ulauncher_desired_state: latest
