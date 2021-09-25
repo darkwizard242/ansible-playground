@@ -104,7 +104,7 @@
     terraform_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.vagrant
-    vagrant_version: 2.2.16
+    vagrant_version: 2.2.18
     vagrant_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.shellcheck
