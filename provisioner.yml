@@ -178,7 +178,7 @@
     serverspec_include_dependencies: yes
 
     # Overriding default values for role variables of darkwizard242.subfinder
-    subfinder_version: 2.4.8
+    subfinder_version: 2.4.9
     subfinder_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.sslscan
