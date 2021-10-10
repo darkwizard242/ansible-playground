@@ -62,6 +62,7 @@
     - darkwizard242.keybase
     - darkwizard242.onepassword
     - darkwizard242.ulauncher
+    - darkwizard242.msteams
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
