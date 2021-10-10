@@ -176,3 +176,6 @@
 
 # Ansible role to install ulauncher.
 - src: darkwizard242.ulauncher
+
+# Ansible role to install msteams.
+- src: darkwizard242.msteams
