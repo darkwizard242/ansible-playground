@@ -182,3 +182,6 @@
 
 # Ansible role to install bravebrowser
 - src: darkwizard242.bravebrowser
+
+# Ansible role to install duf
+- src: darkwizard242.duf
