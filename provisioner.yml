@@ -267,3 +267,7 @@
 
     # Overriding default values for role variables of darkwizard242.bravebrowser
     bravebrowser_desired_state: latest
+
+    # Overriding default values for role variables of darkwizard242.duf
+    duf_desired_state: present
+    duf_version: 0.6.2
