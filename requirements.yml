@@ -185,3 +185,6 @@
 
 # Ansible role to install duf
 - src: darkwizard242.duf
+
+# Ansible role to install uget
+- src: darkwizard242.uget
