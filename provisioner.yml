@@ -65,6 +65,7 @@
     - darkwizard242.msteams
     - darkwizard242.bravebrowser
     - darkwizard242.duf
+    - darkwizard242.uget
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
