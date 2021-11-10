@@ -188,3 +188,6 @@
 
 # Ansible role to install uget
 - src: darkwizard242.uget
+
+# Ansible role to install lens
+- src: darkwizard242.lens
