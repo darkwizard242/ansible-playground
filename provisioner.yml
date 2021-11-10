@@ -276,3 +276,6 @@
 
     # Overriding default values for role variables of darkwizard242.uget
     uget_desired_state: latest
+
+    # Overriding default values for role variables of darkwizard242.lens
+    lens_desired_state: present
