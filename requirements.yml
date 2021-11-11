@@ -191,3 +191,6 @@
 
 # Ansible role to install lens
 - src: darkwizard242.lens
+
+# Ansible role to install eksctl
+- src: darkwizard242.eksctl
