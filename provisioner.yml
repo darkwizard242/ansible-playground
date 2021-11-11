@@ -67,6 +67,7 @@
     - darkwizard242.duf
     - darkwizard242.uget
     - darkwizard242.lens
+    - darkwizard242.eksctl
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
