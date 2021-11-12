@@ -286,3 +286,10 @@
     eksctl_app: eksctl
     eksctl_version: 0.73.0
     eksctl_bin_path: /usr/local/bin
+
+    # Overriding default values for role variables of darkwizard242.kubectl
+    kubectl_version: 1.22.3
+    kubectl_os: linux
+    kubectl_arch: amd64
+    kubectl_bin_path: /usr/local/bin
+    kubectl_file_mode: '0755'
