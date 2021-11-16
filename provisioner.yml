@@ -69,6 +69,7 @@
     - darkwizard242.lens
     - darkwizard242.eksctl
     - darkwizard242.kubectl
+    - darkwizard242.cni
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
