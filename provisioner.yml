@@ -294,3 +294,8 @@
     kubectl_arch: amd64
     kubectl_bin_path: /usr/local/bin
     kubectl_file_mode: '0755'
+
+    # Overriding default values for role variables of darkwizard242.kubectl
+    cni_version: 1.0.1
+    cni_plugins_dir: /opt/cni/bin
+    cni_plugins_dir_mode: '0755'
