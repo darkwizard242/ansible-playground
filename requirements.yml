@@ -197,3 +197,6 @@
 
 # Ansible role to install kubectl
 - src: darkwizard242.kubectl
+
+# Ansible role to install cni
+- src: darkwizard242.cni
