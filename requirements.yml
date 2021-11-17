@@ -200,3 +200,6 @@
 
 # Ansible role to install cni
 - src: darkwizard242.cni
+
+# Ansible role to install containerd
+- src: darkwizard242.containerd
