@@ -70,6 +70,7 @@
     - darkwizard242.eksctl
     - darkwizard242.kubectl
     - darkwizard242.cni
+    - darkwizard242.containerd
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
