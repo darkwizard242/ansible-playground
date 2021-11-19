@@ -307,3 +307,8 @@
     containerd_systemd_service_setup: true
     containerd_systemd_service_enable_state: yes
     containerd_systemd_service_state: started
+
+    # Overriding default values for role variables of darkwizard242.crictl
+    crictl_app: crictl
+    crictl_version: 1.22.0
+    crictl_bin_path: /usr/local/bin
