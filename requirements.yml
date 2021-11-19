@@ -203,3 +203,6 @@
 
 # Ansible role to install containerd
 - src: darkwizard242.containerd
+
+# Ansible role to install crictl
+- src: darkwizard242.crictl
