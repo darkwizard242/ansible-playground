@@ -206,3 +206,6 @@
 
 # Ansible role to install crictl
 - src: darkwizard242.crictl
+
+# Ansible role to install kubeadm
+- src: darkwizard242.kubeadm
