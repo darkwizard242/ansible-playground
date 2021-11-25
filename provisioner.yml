@@ -313,3 +313,10 @@
     crictl_app: crictl
     crictl_version: 1.22.0
     crictl_bin_path: /usr/local/bin
+
+    # Overriding default values for role variables of darkwizard242.kubeadm
+    kubeadm_version: 1.22.4
+    kubeadm_os: linux
+    kubeadm_arch: amd64
+    kubeadm_bin_path: /usr/local/bin
+    kubeadm_file_mode: '0755'
