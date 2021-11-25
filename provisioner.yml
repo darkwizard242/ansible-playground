@@ -72,6 +72,7 @@
     - darkwizard242.cni
     - darkwizard242.containerd
     - darkwizard242.crictl
+    - darkwizard242.kubeadm
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
