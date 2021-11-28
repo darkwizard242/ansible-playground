@@ -209,3 +209,6 @@
 
 # Ansible role to install kubeadm
 - src: darkwizard242.kubeadm
+
+# Ansible role to install kubelet
+- src: darkwizard242.kubelet
