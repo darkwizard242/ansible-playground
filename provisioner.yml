@@ -321,3 +321,11 @@
     kubeadm_arch: amd64
     kubeadm_bin_path: /usr/local/bin
     kubeadm_file_mode: '0755'
+
+    # Overriding default values for role variables of darkwizard242.kubelet
+    kubelet_version: 1.22.4
+    kubelet_os: linux
+    kubelet_arch: amd64
+    kubelet_bin_path: /usr/local/bin
+    kubelet_file_mode: '0755'
+    kubelet_systemd_service_setup: true
