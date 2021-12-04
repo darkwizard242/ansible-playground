@@ -74,6 +74,7 @@
     - darkwizard242.crictl
     - darkwizard242.kubeadm
     - darkwizard242.kubelet
+    - darkwizard242.helm
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
