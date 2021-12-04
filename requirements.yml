@@ -212,3 +212,6 @@
 
 # Ansible role to install kubelet
 - src: darkwizard242.kubelet
+
+# Ansible role to install helm
+- src: darkwizard242.helm
