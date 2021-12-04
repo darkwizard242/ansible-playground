@@ -330,3 +330,8 @@
     kubelet_bin_path: /usr/local/bin
     kubelet_file_mode: '0755'
     kubelet_systemd_service_setup: true
+
+    # Overriding default values for role variables of darkwizard242.helm
+    helm_app: helm
+    helm_version: 3.7.1
+    helm_osarch: amd64
