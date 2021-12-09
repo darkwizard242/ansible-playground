@@ -215,3 +215,6 @@
 
 # Ansible role to install helm
 - src: darkwizard242.helm
+
+# Ansible role to install minikube
+- src: darkwizard242.minikube
