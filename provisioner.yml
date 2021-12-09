@@ -336,3 +336,8 @@
     helm_app: helm
     helm_version: 3.7.1
     helm_osarch: amd64
+
+    # Overriding default values for role variables of darkwizard242.minikube
+    minikube_app: minikube
+    minikube_version: 1.24.0
+    minikube_arch: amd64
