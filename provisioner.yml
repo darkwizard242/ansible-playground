@@ -334,7 +334,7 @@
 
     # Overriding default values for role variables of darkwizard242.helm
     helm_app: helm
-    helm_version: 3.7.1
+    helm_version: 3.7.2
     helm_osarch: amd64
 
     # Overriding default values for role variables of darkwizard242.minikube
