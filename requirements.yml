@@ -218,3 +218,6 @@
 
 # Ansible role to install minikube
 - src: darkwizard242.minikube
+
+# Ansible role to install grype
+- src: darkwizard242.grype
