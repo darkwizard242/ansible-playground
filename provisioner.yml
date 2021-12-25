@@ -77,6 +77,8 @@
     - darkwizard242.helm
     - darkwizard242.minikube
     - darkwizard242.grype
+    - darkwizard242.syft
+
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
     ansible_python_interpreter: /usr/bin/python3
