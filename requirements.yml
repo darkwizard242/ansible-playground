@@ -221,3 +221,6 @@
 
 # Ansible role to install grype
 - src: darkwizard242.grype
+
+# Ansible role to install syft
+- src: darkwizard242.syft
