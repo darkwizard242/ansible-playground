@@ -155,7 +155,7 @@
     awsvault_file_mode: '0755'
 
     # Overriding default values for role variables of darkwizard242.hugo
-    hugo_version: 0.91.0
+    hugo_version: 0.91.2
     hugo_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.scout
