@@ -224,3 +224,6 @@
 
 # Ansible role to install syft
 - src: darkwizard242.syft
+
+# Ansible role to install hadolint
+- src: darkwizard242.hadolint
