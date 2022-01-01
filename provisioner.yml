@@ -79,6 +79,8 @@
     - darkwizard242.grype
     - darkwizard242.syft
     - darkwizard242.hadolint
+    - darkwizard242.vscode
+
 
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
