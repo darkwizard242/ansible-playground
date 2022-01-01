@@ -227,3 +227,6 @@
 
 # Ansible role to install hadolint
 - src: darkwizard242.hadolint
+
+# Ansible role to install vscode
+- src: darkwizard242.vscode
