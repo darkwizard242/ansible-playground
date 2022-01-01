@@ -362,3 +362,9 @@
     hadolint_version: 2.8.0
     hadolint_os: Linux
     hadolint_arch: x86_64
+
+    # Overriding default values for role variables of darkwizard242.vscode
+    vscode_app_name: code
+    vscode_desired_state: latest
+    vscode_repo_desired_state: present
+    vscode_debian_repo_filename: vscode
