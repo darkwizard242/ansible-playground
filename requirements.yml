@@ -230,3 +230,6 @@
 
 # Ansible role to install vscode
 - src: darkwizard242.vscode
+
+# Ansible role to install kubens
+- src: darkwizard242.kubens
