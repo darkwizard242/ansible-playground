@@ -80,7 +80,7 @@
     - darkwizard242.syft
     - darkwizard242.hadolint
     - darkwizard242.vscode
-
+    - darkwizard242.kubens
 
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
