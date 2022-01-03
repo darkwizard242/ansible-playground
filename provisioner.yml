@@ -368,3 +368,8 @@
     vscode_desired_state: latest
     vscode_repo_desired_state: present
     vscode_debian_repo_filename: vscode
+
+    # Overriding default values for role variables of darkwizard242.kubens
+    kubens_version: 0.9.4
+    kubens_os: linux
+    kubens_arch: x86_64
