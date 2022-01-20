@@ -116,7 +116,7 @@
     googlechrome_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.packer
-    packer_version: 1.7.8
+    packer_version: 1.7.9
     packer_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.terraform
