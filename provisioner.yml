@@ -248,7 +248,7 @@
     saws_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.goofys
-    goofys_desired_state: latest
+    goofys_version: 0.24.0
 
     # Overriding default values for role variables of darkwizard242.nodejs
     nodejs_app_desired_state: present
