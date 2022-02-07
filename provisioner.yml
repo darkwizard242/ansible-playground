@@ -283,7 +283,7 @@
     msteams_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.bravebrowser
-    bravebrowser_desired_state: latest
+    bravebrowser_app_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.duf
     duf_desired_state: present
