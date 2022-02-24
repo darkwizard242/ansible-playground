@@ -233,3 +233,6 @@
 
 # Ansible role to install kubens
 - src: darkwizard242.kubens
+
+# Ansible role to install helmfile
+- src: darkwizard242.helmfile
