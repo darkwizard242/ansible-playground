@@ -81,6 +81,7 @@
     - darkwizard242.hadolint
     - darkwizard242.vscode
     - darkwizard242.kubens
+    - darkwizard242.helmfile
 
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
