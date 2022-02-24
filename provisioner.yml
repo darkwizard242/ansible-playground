@@ -375,3 +375,9 @@
     kubens_version: 0.9.4
     kubens_os: linux
     kubens_arch: x86_64
+
+    # Overriding default values for role variables of darkwizard242.helmfile
+    helmfile_app: helmfile
+    helmfile_version: 0.143.0
+    helmfile_os: linux
+    helmfile_arch: amd64
