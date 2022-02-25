@@ -288,7 +288,7 @@
 
     # Overriding default values for role variables of darkwizard242.duf
     duf_desired_state: present
-    duf_version: 0.8.0
+    duf_version: 0.8.1
 
     # Overriding default values for role variables of darkwizard242.uget
     uget_desired_state: latest
