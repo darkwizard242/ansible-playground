@@ -318,7 +318,7 @@
     crictl_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.kubectl
-    kubectl_version: 1.22.6
+    kubectl_version: 1.22.7
     kubectl_os: linux
     kubectl_arch: amd64
     kubectl_bin_path: /usr/local/bin
