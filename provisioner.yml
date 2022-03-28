@@ -361,7 +361,7 @@
     syft_arch: amd64
 
     # Overriding default values for role variables of darkwizard242.hadolint
-    hadolint_version: 2.9.2
+    hadolint_version: 2.9.3
     hadolint_os: Linux
     hadolint_arch: x86_64
 
