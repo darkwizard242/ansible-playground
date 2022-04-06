@@ -182,7 +182,7 @@
     asciinema_app_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.go
-    go_version: 1.17.6
+    go_version: 1.18
 
     # Overriding default values for role variables of darkwizard242.trivy
     trivy_app_desired_state: latest
