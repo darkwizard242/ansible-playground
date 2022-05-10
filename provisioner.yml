@@ -167,7 +167,7 @@
     scout_file_mode: '0755'
 
     # Overriding default values for role variables of darkwizard242.inspec
-    inspec_version: 5.12.2
+    inspec_version: 5.14.0
 
     # Overriding default values for role variables of darkwizard242.awless
     awless_version: 0.1.11
