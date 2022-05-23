@@ -236,3 +236,6 @@
 
 # Ansible role to install helmfile
 - src: darkwizard242.helmfile
+
+# Ansible role to install flux
+- src: darkwizard242.flux
