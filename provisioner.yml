@@ -351,7 +351,7 @@
     minikube_arch: amd64
 
     # Overriding default values for role variables of darkwizard242.grype
-    grype_version: 0.37.0
+    grype_version: 0.38.0
     grype_os: linux
     grype_arch: amd64
 
