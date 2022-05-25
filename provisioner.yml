@@ -83,7 +83,6 @@
     - darkwizard242.kubens
     - darkwizard242.helmfile
     - darkwizard242.flux
-    - darkwizard242.lazygit
 
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
@@ -145,11 +144,7 @@
     docker_apps_desired_state: latest
     docker_service_desired_state: stopped  # Options are: reloaded, restarted, started, stopped
 
-    # Overriding default values for role variables of darkwizard242.aws# Overriding default values for role variables of darkwizard242.flux
-    flux_app: flux
-    flux_version: 0.30.2
-    flux_os: linux
-    flux_arch: amd64cli_
+    # Overriding default values for role variables of darkwizard242.awscli_
     awscli_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.ruby
@@ -393,3 +388,6 @@
     flux_version: 0.30.2
     flux_os: linux
     flux_arch: amd64
+
+    # Overriding default values for role variables of darkwizard242.lazygit
+    lazygit_version: '0.34'
