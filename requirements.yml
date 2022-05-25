@@ -239,3 +239,6 @@
 
 # Ansible role to install flux
 - src: darkwizard242.flux
+
+# Ansible role to install lazygit
+- src: darkwizard242.lazygit
