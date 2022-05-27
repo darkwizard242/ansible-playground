@@ -83,6 +83,7 @@
     - darkwizard242.kubens
     - darkwizard242.helmfile
     - darkwizard242.flux
+    - darkwizard242.kubescape
 
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
