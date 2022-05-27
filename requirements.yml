@@ -242,3 +242,6 @@
 
 # Ansible role to install lazygit
 - src: darkwizard242.lazygit
+
+# Ansible role to install kubescape
+- src: darkwizard242.kubescape
