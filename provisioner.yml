@@ -396,3 +396,9 @@
 
     # Overriding default values for role variables of darkwizard242.kubescape
     kubescape_version: 2.0.156
+
+    # Overriding default values for role variables of darkwizard242.infracost
+    infracost_app: infracost
+    infracost_version: 0.10.1
+    infracost_os: linux
+    infracost_arch: amd64
