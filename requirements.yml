@@ -245,3 +245,6 @@
 
 # Ansible role to install kubescape
 - src: darkwizard242.kubescape
+
+# Ansible role to install infracost
+- src: darkwizard242.infracost
