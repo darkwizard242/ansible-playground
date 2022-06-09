@@ -85,6 +85,7 @@
     - darkwizard242.flux
     - darkwizard242.kubescape
     - darkwizard242.infracost
+    - darkwizard242.terrascan
 
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
