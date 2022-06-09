@@ -403,3 +403,9 @@
     infracost_version: 0.10.1
     infracost_os: linux
     infracost_arch: amd64
+
+    # Overriding default values for role variables of darkwizard242.terrascan
+    terrascan_app: terrascan
+    terrascan_version: 1.15.1
+    terrascan_os: Linux
+    terrascan_arch: x86_64
