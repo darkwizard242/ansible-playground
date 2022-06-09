@@ -248,3 +248,6 @@
 
 # Ansible role to install infracost
 - src: darkwizard242.infracost
+
+# Ansible role to install terrascan
+- src: darkwizard242.terrascan
