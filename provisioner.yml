@@ -302,7 +302,7 @@
 
     # Overriding default values for role variables of darkwizard242.eksctl
     eksctl_app: eksctl
-    eksctl_version: 0.105.0
+    eksctl_version: 0.106.0
     eksctl_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.kubectl
