@@ -388,7 +388,7 @@
 
     # Overriding default values for role variables of darkwizard242.flux
     flux_app: flux
-    flux_version: 0.32.0
+    flux_version: 0.33.0
     flux_os: linux
     flux_arch: amd64
 
