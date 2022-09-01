@@ -410,3 +410,9 @@
     terrascan_version: 1.15.2
     terrascan_os: Linux
     terrascan_arch: x86_64
+
+    # Overriding default values for role variables of darkwizard242.dive
+    dive_app: dive
+    dive_version: 0.10.0
+    dive_os: linux
+    dive_arch: amd64
