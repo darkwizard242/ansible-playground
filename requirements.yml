@@ -251,3 +251,6 @@
 
 # Ansible role to install terrascan
 - src: darkwizard242.terrascan
+
+# Ansible role to install dive
+- src: darkwizard242.dive
