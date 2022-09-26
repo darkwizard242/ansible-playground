@@ -179,7 +179,7 @@
     awless_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.dockercompose
-    dockercompose_version: 2.11.0
+    dockercompose_version: 2.11.1
     dockercompose_bin_path: /usr/local/bin
     dockercompose_file_mode: '0755'
 
