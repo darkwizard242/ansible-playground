@@ -39,7 +39,7 @@
     - darkwizard242.terraforming
     - darkwizard242.serverspec
     - darkwizard242.subfinder
-    - darkwizard242.sslscan
+    # - darkwizard242.sslscan
     - darkwizard242.simplescreenrecorder
     - darkwizard242.awsnuke
     - darkwizard242.openvpn
