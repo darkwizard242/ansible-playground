@@ -13,28 +13,36 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+
+    - name: Checkout source code
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3.10.0
+      uses: actions/setup-python@v2
       with:
-        python-version: 3.7
+        python-version: 3.10.0
+
     - name: Installing python-apt and python3-apt as required for some ansible roles.
       run: |
         sudo apt-get update
         sudo apt-get install -y python3-apt python3-setuptools
+
     - name: Create a custom inventory file to contain entry for localhost.
       run: |
         echo "localhost ansible_connection=local" > hosts
         cat hosts
+
     - name: Installing darkwizard242 roles specified within requirements.yml onto local system from Ansible Galaxy.
       run: |
         ansible-galaxy install -r requirements.yml
+
     - name: Perform Syntax check of ansible playbook called provisioner.yml
       run: |
         ansible-playbook --syntax-check -i hosts provisioner.yml
+
     - name: Run provisioner.yml for installation of darkwizard242 roles on local system using custom inventory hosts file.
       run: |
         ansible-playbook -i hosts provisioner.yml
