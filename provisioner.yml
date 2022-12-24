@@ -407,7 +407,7 @@
 
     # Overriding default values for role variables of darkwizard242.terrascan
     terrascan_app: terrascan
-    terrascan_version: 1.17.0
+    terrascan_version: 1.17.1
     terrascan_os: Linux
     terrascan_arch: x86_64
 
