@@ -48,7 +48,7 @@
     - darkwizard242.jq
     - darkwizard242.lazydocker
     - darkwizard242.locust
-    # - darkwizard242.checkov
+    - darkwizard242.checkov
     - darkwizard242.s3cmd
     - darkwizard242.saws
     - darkwizard242.goofys
