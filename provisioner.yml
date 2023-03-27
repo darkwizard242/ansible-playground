@@ -261,7 +261,7 @@
     nodejs_version: 14.x
 
     # Overriding default values for role variables of darkwizard242.node_exporter_app
-    node_exporter_version: 1.0.1
+    node_exporter_version: 1.5.0
     node_exporter_systemd_service_setup: true
 
     # Overriding default values for role variables of darkwizard242.cloc
