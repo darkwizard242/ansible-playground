@@ -258,7 +258,7 @@
 
     # Overriding default values for role variables of darkwizard242.nodejs
     nodejs_app_desired_state: present
-    nodejs_version: 14.x
+    nodejs_version: 18.x
 
     # Overriding default values for role variables of darkwizard242.node_exporter_app
     node_exporter_version: 1.5.0
