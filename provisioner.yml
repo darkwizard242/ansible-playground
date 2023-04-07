@@ -214,7 +214,7 @@
     simplescreenrecorder_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.awsnuke
-    awsnuke_version: 2.22.0
+    awsnuke_version: 2.22.1
     awsnuke_config_dir: "/etc/{{ awsnuke_app }}"
     awsnuke_config_dir_mode: '0744'
     awsnuke_config_dir_owner: root
