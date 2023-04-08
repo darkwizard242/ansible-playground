@@ -87,6 +87,7 @@
     - darkwizard242.infracost
     - darkwizard242.terrascan
     - darkwizard242.dive
+    - darkwizard242.hostctl
 
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
