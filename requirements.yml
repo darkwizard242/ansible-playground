@@ -254,3 +254,6 @@
 
 # Ansible role to install dive
 - src: darkwizard242.dive
+
+# Ansible role to install hostctl
+- src: darkwizard242.hostctl
