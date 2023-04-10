@@ -257,3 +257,6 @@
 
 # Ansible role to install hostctl
 - src: darkwizard242.hostctl
+
+# Ansible role to install mkcert
+- src: darkwizard242.mkcert
