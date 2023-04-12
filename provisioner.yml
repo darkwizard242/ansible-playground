@@ -89,6 +89,7 @@
     - darkwizard242.dive
     - darkwizard242.hostctl
     - darkwizard242.mkcert
+    - darkwizard242.istioctl
 
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
