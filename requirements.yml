@@ -260,3 +260,6 @@
 
 # Ansible role to install mkcert
 - src: darkwizard242.mkcert
+
+# Ansible role to install istioctl
+- src: darkwizard242.istioctl
