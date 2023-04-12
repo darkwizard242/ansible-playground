@@ -426,8 +426,14 @@
     hostctl_os: linux
     hostctl_arch: 64-bit
 
-    # Overriding default values for role variables of darkwizard242.hostctl
+    # Overriding default values for role variables of darkwizard242.mkcert
     mkcert_app: mkcert
     mkcert_version: 1.4.4
     mkcert_os: linux
     mkcert_arch: amd64
+
+    # Overriding default values for role variables of darkwizard242.istioctl
+    istioctl_app: istioctl
+    istioctl_version: 1.17.2
+    istioctl_os: linux
+    istioctl_arch: amd64
