@@ -364,7 +364,7 @@
     grype_arch: amd64
 
     # Overriding default values for role variables of darkwizard242.grype
-    syft_version: 0.77.0
+    syft_version: 0.78.0
     syft_os: linux
     syft_arch: amd64
 
