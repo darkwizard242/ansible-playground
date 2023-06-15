@@ -349,7 +349,7 @@
 
     # Overriding default values for role variables of darkwizard242.helm
     helm_app: helm
-    helm_version: 3.12.0
+    helm_version: 3.12.1
     helm_os: linux
     helm_arch: amd64
 
