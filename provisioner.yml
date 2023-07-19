@@ -326,21 +326,21 @@
     crictl_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.kubectl
-    kubectl_version: 1.26.6
+    kubectl_version: 1.27.4
     kubectl_os: linux
     kubectl_arch: amd64
     kubectl_bin_path: /usr/local/bin
     kubectl_file_mode: '0755'
 
     # Overriding default values for role variables of darkwizard242.kubeadm
-    kubeadm_version: 1.26.6
+    kubeadm_version: 1.27.4
     kubeadm_os: linux
     kubeadm_arch: amd64
     kubeadm_bin_path: /usr/local/bin
     kubeadm_file_mode: '0755'
 
     # Overriding default values for role variables of darkwizard242.kubelet
-    kubelet_version: 1.26.6
+    kubelet_version: 1.27.4
     kubelet_os: linux
     kubelet_arch: amd64
     kubelet_bin_path: /usr/local/bin
