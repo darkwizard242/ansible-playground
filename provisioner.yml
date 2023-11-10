@@ -355,7 +355,7 @@
 
     # Overriding default values for role variables of darkwizard242.minikube
     minikube_app: minikube
-    minikube_version: 1.31.2
+    minikube_version: 1.32.0
     minikube_arch: amd64
 
     # Overriding default values for role variables of darkwizard242.grype
