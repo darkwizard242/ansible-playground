@@ -434,6 +434,6 @@
 
     # Overriding default values for role variables of darkwizard242.istioctl
     istioctl_app: istioctl
-    istioctl_version: 1.19.3
+    istioctl_version: 1.20.0
     istioctl_os: linux
     istioctl_arch: amd64
