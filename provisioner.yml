@@ -90,6 +90,7 @@
     - darkwizard242.hostctl
     - darkwizard242.mkcert
     - darkwizard242.istioctl
+    - darkwizard242.nordvpn
 
   vars:
     # CUSTOM VARS FOR THIS PLAYBOOK
@@ -437,3 +438,6 @@
     istioctl_version: 1.20.1
     istioctl_os: linux
     istioctl_arch: amd64
+
+    # Overriding default values for role variables of darkwizard242.nordvpn
+    nordvpn_desired_state: latest
