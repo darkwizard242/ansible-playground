@@ -263,3 +263,6 @@
 
 # Ansible role to install istioctl
 - src: darkwizard242.istioctl
+
+# Ansible role to install nordvpn
+- src: darkwizard242.nordvpn
