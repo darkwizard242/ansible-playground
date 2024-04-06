@@ -316,7 +316,7 @@
     cni_plugins_dir_mode: '0755'
 
     # Overriding default values for role variables of darkwizard242.containerd
-    containerd_version: 1.5.7
+    containerd_version: 1.7.15
     containerd_systemd_service_setup: true
     containerd_systemd_service_enable_state: yes
     containerd_systemd_service_state: started
