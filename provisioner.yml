@@ -62,7 +62,7 @@
     - darkwizard242.keybase
     - darkwizard242.onepassword
     - darkwizard242.ulauncher
-    - darkwizard242.msteams
+    # - darkwizard242.msteams
     - darkwizard242.bravebrowser
     - darkwizard242.duf
     - darkwizard242.uget
@@ -290,7 +290,7 @@
     ulauncher_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.msteams
-    msteams_desired_state: latest
+    # msteams_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.bravebrowser
     bravebrowser_app_desired_state: latest
