@@ -287,7 +287,7 @@
     onepassword_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.ulauncher
-    ulauncher_desired_state: latest
+    ulauncher_package_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.msteams
     # msteams_desired_state: latest
