@@ -401,7 +401,7 @@
     lazygit_version: '0.34'
 
     # Overriding default values for role variables of darkwizard242.kubescape
-    kubescape_version: 3.0.10
+    kubescape_version: 3.0.11
 
     # Overriding default values for role variables of darkwizard242.infracost
     infracost_app: infracost
