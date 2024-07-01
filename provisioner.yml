@@ -405,7 +405,7 @@
 
     # Overriding default values for role variables of darkwizard242.infracost
     infracost_app: infracost
-    infracost_version: 0.10.37
+    infracost_version: 0.10.38
     infracost_os: linux
     infracost_arch: amd64
 
