@@ -341,7 +341,7 @@
     kubeadm_file_mode: '0755'
 
     # Overriding default values for role variables of darkwizard242.kubelet
-    kubelet_version: 1.30.2
+    kubelet_version: 1.30.3
     kubelet_os: linux
     kubelet_arch: amd64
     kubelet_bin_path: /usr/local/bin
