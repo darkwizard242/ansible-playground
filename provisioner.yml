@@ -323,7 +323,7 @@
 
     # Overriding default values for role variables of darkwizard242.crictl
     crictl_app: crictl
-    crictl_version: 1.31.0
+    crictl_version: 1.31.1
     crictl_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.kubectl
