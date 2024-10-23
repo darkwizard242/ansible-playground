@@ -334,7 +334,7 @@
     kubectl_file_mode: '0755'
 
     # Overriding default values for role variables of darkwizard242.kubeadm
-    kubeadm_version: 1.31.0
+    kubeadm_version: 1.31.2
     kubeadm_os: linux
     kubeadm_arch: amd64
     kubeadm_bin_path: /usr/local/bin
