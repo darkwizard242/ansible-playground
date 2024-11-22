@@ -310,7 +310,7 @@
     eksctl_version: 0.194.0
     eksctl_bin_path: /usr/local/bin
 
-    # Overriding default values for role variables of darkwizard242.kubectl
+    # Overriding default values for role variables of darkwizard242.cni
     cni_version: 1.6.0
     cni_plugins_dir: /opt/cni/bin
     cni_plugins_dir_mode: '0755'
@@ -327,7 +327,7 @@
     crictl_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.kubectl
-    kubectl_version: 1.31.2
+    kubectl_version: 1.31.3
     kubectl_os: linux
     kubectl_arch: amd64
     kubectl_bin_path: /usr/local/bin
