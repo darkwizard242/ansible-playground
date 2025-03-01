@@ -168,7 +168,7 @@
     awsvault_file_mode: '0755'
 
     # Overriding default values for role variables of darkwizard242.hugo
-    hugo_version: 0.144.2
+    hugo_version: 0.145.0
     hugo_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.scout
@@ -307,7 +307,7 @@
 
     # Overriding default values for role variables of darkwizard242.eksctl
     eksctl_app: eksctl
-    eksctl_version: 0.204.0
+    eksctl_version: 0.205.0
     eksctl_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.cni
@@ -316,7 +316,7 @@
     cni_plugins_dir_mode: '0755'
 
     # Overriding default values for role variables of darkwizard242.containerd
-    containerd_version: 2.0.2
+    containerd_version: 2.0.3
     containerd_systemd_service_setup: true
     containerd_systemd_service_enable_state: yes
     containerd_systemd_service_state: started
@@ -393,7 +393,7 @@
 
     # Overriding default values for role variables of darkwizard242.flux
     flux_app: flux
-    flux_version: 2.5.0
+    flux_version: 2.5.1
     flux_os: linux
     flux_arch: amd64
 
@@ -401,7 +401,7 @@
     lazygit_version: '0.34'
 
     # Overriding default values for role variables of darkwizard242.kubescape
-    kubescape_version: 3.0.28
+    kubescape_version: 3.0.30
 
     # Overriding default values for role variables of darkwizard242.infracost
     infracost_app: infracost
