@@ -237,7 +237,7 @@
     virtualbox_desired_state: latest
 
     # Overriding default values for role variables of darkwizard242.tfsec
-    tfsec_version: 1.28.13
+    tfsec_version: 1.28.14
 
     # Overriding default values for role variables of darkwizard242.jq
     jq_desired_state: latest
