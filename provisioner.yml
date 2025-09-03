@@ -311,7 +311,7 @@
     eksctl_bin_path: /usr/local/bin
 
     # Overriding default values for role variables of darkwizard242.cni
-    cni_version: 1.6.2
+    cni_version: 1.8.0
     cni_plugins_dir: /opt/cni/bin
     cni_plugins_dir_mode: '0755'
 
