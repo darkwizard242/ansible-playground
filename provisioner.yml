@@ -387,7 +387,7 @@
 
     # Overriding default values for role variables of darkwizard242.helmfile
     helmfile_app: helmfile
-    helmfile_version: 1.1.5
+    helmfile_version: 1.1.6
     helmfile_os: linux
     helmfile_arch: amd64
 
