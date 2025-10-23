@@ -20,10 +20,10 @@ jobs:
     - name: Checkout source code
       uses: actions/checkout@v2
 
-    - name: Set up Python 3.10.0
-      uses: actions/setup-python@v2
+    - name: Set up Python 3.14.0
+      uses: actions/setup-python@v6
       with:
-        python-version: 3.10.0
+        python-version: 3.14.0
 
     - name: Installing python-apt and python3-apt as required for some ansible roles.
       run: |
