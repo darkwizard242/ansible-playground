@@ -9,7 +9,7 @@
     - darkwizard242.unzip
     - darkwizard242.python3
     # - darkwizard242.pip
-    - darkwizard242.adoptopenjdk
+    # - darkwizard242.adoptopenjdk
     - darkwizard242.openrazer
     - darkwizard242.polychromatic
     - darkwizard242.atom
