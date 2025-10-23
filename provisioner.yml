@@ -12,7 +12,7 @@
     # - darkwizard242.adoptopenjdk
     - darkwizard242.openrazer
     - darkwizard242.polychromatic
-    - darkwizard242.atom
+    # - darkwizard242.atom
     - darkwizard242.googlechrome
     - darkwizard242.packer
     - darkwizard242.terraform
