@@ -29,7 +29,7 @@
     - darkwizard242.awsvault
     - darkwizard242.hugo
     - darkwizard242.scout
-    - darkwizard242.inspec
+    # - darkwizard242.inspec
     - darkwizard242.awless
     - darkwizard242.dockercompose
     - darkwizard242.logrotate
