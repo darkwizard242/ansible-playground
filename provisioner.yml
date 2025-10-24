@@ -43,7 +43,7 @@
     - darkwizard242.simplescreenrecorder
     - darkwizard242.awsnuke
     - darkwizard242.openvpn
-    - darkwizard242.virtualbox
+    # - darkwizard242.virtualbox
     - darkwizard242.tfsec
     - darkwizard242.jq
     - darkwizard242.lazydocker
