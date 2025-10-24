@@ -53,7 +53,7 @@
     - darkwizard242.saws
     - darkwizard242.goofys
     - darkwizard242.mc
-    - darkwizard242.nodejs
+    # - darkwizard242.nodejs # requires updating the role
     - darkwizard242.node_exporter
     - darkwizard242.cloc
     - darkwizard242.stacer
