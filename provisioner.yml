@@ -57,7 +57,7 @@
     - darkwizard242.node_exporter
     - darkwizard242.cloc
     - darkwizard242.stacer
-    - darkwizard242.speedtest
+    # - darkwizard242.speedtest # not available in ubuntu 20.04
     - darkwizard242.httpie
     - darkwizard242.keybase
     - darkwizard242.onepassword
